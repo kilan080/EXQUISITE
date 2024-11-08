@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    padding: 0px;
+    margin: 0px;
+    margin-top: 30px;
+    background-image: url(Luxury\ Waterproof\ Luminous\ Watch\ for\ Men\ -\ Silver_White\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around ;
+}
+.logo {
+    display: flex;
+    gap: 5px;
+}
+.logo img {
+    font-size: 15px;
+}
+.search {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 7px;
+    padding: 5px;
+    border: 2px solid #000;
+    border-radius: 30px;
+    margin-bottom: 10PX;
+    height: 34px;
+    width: 250px;
+    border-color: #fff;
+}
+.search input {
+    width: inherit;
+    height: inherit;
+    background-color: inherit;
+    border: none;
+    outline: none;
+}
+.cheat {
+    color: #fff;
+}
+.bod {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80%;
+    text-align: left;
+    padding-left: 115px;
+}
+.bod h1 {
+    font-size: 80px;
+    color: aliceblue;
+    margin-bottom: -10px;
+}
+.bod p {
+    color: #fff;
+    font-size: 20px;
+}
+.bod button {
+    background-color: #001225;
+    height: 35px;
+    width: 160px;
+    border-radius:15px ;
+    color: goldenrod;
+}
